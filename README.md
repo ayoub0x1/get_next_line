@@ -56,5 +56,5 @@ and, when compiling your code, add the source files and the required flag:
 ```shell
 get_next_line.c get_next_line_utils.c -D BUFFER_SIZE=<size>
 ```
-## Points to understand in GNL
+## 📋 Points to understand in GNL
 
