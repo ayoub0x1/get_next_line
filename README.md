@@ -24,7 +24,9 @@
 
 ## 💡 About the project
 
-> _The aim of this project is to make you code a function that returns a line, read from a file descriptor._
+> _This project will not only allow you to add a very convenient function to your collection,
+but it will also allow you to learn a highly interesting new concept in C programming:
+**"static variables"**._
 
 	You will understand how files are opened, read and closed in an OS,
 	and how they are interpreted by a programming language for further analysis.
@@ -35,9 +37,6 @@
 For more detailed information, look at the [**subject of this project**](https://github.com/Surfi89/42cursus/tree/main/Subject%20PDFs).The aim of this project is to make you code a function that **returns a line
 ending with a newline, read from a file descriptor.**
 
-This project will not only allow you to add a very convenient function to your collection,
-but it will also allow you to learn a highly interesting new concept in C programming:
-**"static variables"**
 
 ### Function Prototype
 ```c
