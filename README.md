@@ -8,7 +8,7 @@
 <h3 align="center">
 	<a href="#%EF%B8%8F-about">About</a>
 	<span> · </span>
-	<a href="#%EF%B8%8F-usage">Compilation</a>
+	<a href="#%EF%B8%8F-compilation">Compilation</a>
 	<span> · </span>
 	<a href="#-testing">More</a>
 </h3>
