@@ -35,7 +35,7 @@ ending with a newline, read from a file descriptor.**
 ```c
 char *get_next_line(int fd);
 ```
-## Compilation
+## 🛠️ Compilation
 
 ### Requirements
 
