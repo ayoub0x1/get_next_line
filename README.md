@@ -37,36 +37,24 @@ char *get_next_line(int fd);
 ```
 ## Compilation
 
-**GNL Mandatory Part**
+### Requirements
 
-Your program must compile with the flag -D **BUFFER_SIZE=xx**. which will be used
-as the buffer size for the read calls in your get_next_line.
+The function is written in C language and thus needs the **`gcc` compiler** and some standard **C libraries** to run.
 
-Make sure that your function behaves well when it reads from a file and when it
-reads from the standard input.
+### Instructions
 
- :point_right: Locate in the **libft** folder.
+**1. Using it in your code**
 
-**GNL with files**
-```bash
-gcc tests/main.c -Wall -Wextra -Werror -D BUFFER_SIZE=32 get_next_line.c get_next_line_utils.c
+To use the function in your code, simply include its header:
 
-./a.out tests/files/part1_test01_with_lines
+```C
+#include "get_next_line.h"
 ```
 
-**GNL with standard input (stdin)**
-```bash
-gcc tests/main_stdin.c -Wall -Wextra -Werror -D BUFFER_SIZE=32 get_next_line.c get_next_line_utils.c
+and, when compiling your code, add the source files and the required flag:
 
-./a.out
+```shell
+get_next_line.c get_next_line_utils.c -D BUFFER_SIZE=<size>
 ```
-
-**GNL Bonus Part**
-```bash
-gcc tests/main_bonus.c -g -Wall -Wextra -Werror -D BUFFER_SIZE=1 get_next_line_bonus.c get_next_line_utils_bonus.c
-
-./a.out
-```
-
 ## Points to understand in GNL
 
